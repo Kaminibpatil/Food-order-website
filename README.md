@@ -7,3 +7,7 @@ This is a basic clone of a food order website, developed for learning HTML, CSS,
 
 1. Clone the repository.
 2. Open `index.html` in a web browser.
+
+## Contrubitions
+
+[aligunesv](https://github.com/aligunesv)
