@@ -206,3 +206,75 @@ footer{
     border-bottom: 1px solid #ddd;
     padding: 12px;
 }
+
+@media (max-width: 900px) {
+    #navbar{
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: space-between;
+        padding: 10px 0;
+        background-color: #fff;
+    }
+
+    #navbar img {
+        margin-bottom: 20px;
+    }
+
+    #home{
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(bg1.jpg)no-repeat center center/cover;
+        background-attachment: none;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #home h1{
+        color: #fff;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    #home p{
+        color: #aaaaaa;
+        text-align: center;
+        font-size: .875rem;
+    }
+
+    .btn{
+        padding: 6px 20px;
+        border: none;
+        outline: none;
+        background-color:#000;
+        color: #fff;
+        margin:50px;
+        font-size: 1.4rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    .btn:hover{
+        background-color: #fff;
+        color: #000;
+        border-radius: 15px;
+    }
+    
+
+
+    .services-container{
+        height: 100%; /*mobile 100%*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #contact-box{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+}
