@@ -1,0 +1,31 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+}
+/* home */
+#home{
+height: 370px;
+padding:3px 20px;
+}
+#home::before{
+    height: 480px;
+}
+
+/* services */
+#services{
+flex-direction: column;
+}
+#services .box{
+    
+}
+
+/* clients */
+#clients{
+overflow: hidden;
+}
+/* contact */
+
+/* footer */
+.prim{
+    font-size:50px ;
+}
