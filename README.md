@@ -1,5 +1,5 @@
 # Food-order-website
-# Food Order Website Clone
+-- Food Order Website Clone
 
 This is a basic clone of a food order website, developed for learning HTML, CSS, and JavaScript. 
 
